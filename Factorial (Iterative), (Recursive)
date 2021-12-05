@@ -1,0 +1,17 @@
+# Factorial (Iterative Method)
+# def fact(n):
+#     factorial = 1
+#     for i in range(n):
+#         factorial = factorial*(i+1)
+#     return factorial
+# number = int(input("Enter a number for factorial\n"))
+# print(fact(number))
+
+# Factorial (Recursive Method)
+# def fact(n):
+#     if n == 0 or n ==1:
+#         return 1
+#     else:
+#         return n*fact(n-1)
+# number = int(input("Enter a number for factorial\n"))
+# print(fact(number))
