@@ -1,0 +1,59 @@
+#ROCK PAPER SCISSORS
+
+# import random
+# import time
+
+# def game(comp, you):
+#     if comp == you:
+#         print("Its a tie")
+#     elif comp == 'r':
+#         if you == 'p':
+#             print("You won")
+#         elif you == 's':
+#             print("Computer wins")
+    
+#     elif comp == 'p':
+#         if you == 's':
+#             print("You won")
+#         elif you == 'r':
+#             print("Computer wins")
+    
+#     elif comp == 's':
+#         if you == 'r':
+#             print("You won")
+#         elif you == 'p':
+#             print("Computer wins")
+
+
+# while(True):
+#     you = input("Enter your choice: 'r' for (Rock) 'p' for(Paper) 's' for (Scissors)\n")
+
+#     time.sleep(1)
+
+#     print("Computers turn.....\nWaiting for Computer to choose.....")
+
+#     time.sleep(1)
+
+#     rand_no = random.randint(1,3)
+
+#     if rand_no == 1:
+#         comp = 'r'
+#     elif rand_no == 2:
+#         comp = 'p'
+#     elif rand_no == 3:
+#         comp = 's'
+
+#     print(f"Computer chose {comp}")
+#     print(f"You chose {you}")
+
+#     game(comp, you)
+
+#     print("Do you wish to play again? y/n")
+#     choice = ""
+#     while (choice != "y" and choice != "n"):
+
+#         choice = input()
+#         if choice == "y":
+#             continue
+#         elif choice == "n":
+#             exit()
