@@ -1,0 +1,19 @@
+# To check for Palindrome and give the next palindrome number.
+
+# def next_palin(val):
+#     while not is_palin(val):
+#         val = val+1
+#     return val
+    
+# def is_palin(val):
+#     return str(val) == str(val)[::-1]
+
+# no_of_cases = int(input("Enter the number of times you want to check for Palindrome\n"))
+# palin_list = []
+
+# for i in range(no_of_cases):
+#     pal_nos = int(input("Enter the numbers you want to check\n"))
+#     palin_list.append(pal_nos)
+
+# for i in range(no_of_cases):
+#     print(f"The next palindrome number for {palin_list[i]} is {next_palin(palin_list[i])}")    
