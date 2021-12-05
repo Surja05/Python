@@ -1,0 +1,34 @@
+# You visited a restaurant called CofeeHouse, and the food items in that restaurant are sorted, based on their amount of calories. You have to reserve this list of food items containing calories.You have to use the following three methods to reserve a list:
+
+# Inbuild method of python
+# List name [::-1] slicing trick
+# Swap the first element with the last one and second element with second last one and so on like,
+# [6 7 8 34 5] -> [5 34 8 7 6]
+
+    
+# print("Welcome to the CoffeeShop. Please enter the calories in the list")
+# list_size = int(input("Enter the size of the list that you want to create\n"))
+# the_list = []
+
+# for i in range(list_size):
+#     the_list.append(int(input("Enter the calories in the List\n")))
+
+# print(f"The list you entered is {the_list}")
+
+
+# # print(the_list.reverse()) Since this returns a None Value, we use a variable to get the reversed list
+
+# reverse1 = the_list[:]
+# reverse1.reverse()
+# print(f"The reversed list for {the_list} using Python Module is {reverse1}")
+
+# reverse2 = the_list[::-1]
+# print(f"The reversed list with string slicing is {reverse2}")
+
+# # Entering into the list and then using the len function to decide on the range.
+# for i in range (len(the_list)//2):
+
+# #We have to swap the first element with the last one and vice versa. Hence we used the first Index value of [i] and the last Index value of [i] ** We get the last [i] value by subtracting the len(the_list) with (i-1) and simultaneously equate that with the last one by changing the order of the same.
+#     the_list[i], the_list[len(the_list)-i-1] = the_list[len(the_list)-i-1], the_list[i]
+
+# print(f"The reversed list using swapping technique is {the_list}")
