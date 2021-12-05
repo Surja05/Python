@@ -1,0 +1,73 @@
+# Library Management System
+# Create a class Library: it will have 4 functions: 
+# 1. Display Book, 2. Lend Book, 3. Add Book, 4. Return Book 
+
+# A dictionary is created that includes the name of the books and the name of the Lenders.Take input from user.
+
+
+# class Library:
+# # adding a dict with user name: book name and a list that includes the names of the books present in the Library.
+#     def __init__(self, booklist, library_name):
+#         self.list = booklist
+#         self.name = library_name
+#         self.lend_dict  = {}
+        
+
+#     def display_book(self):
+#         for book_name in self.list:
+#             print(book_name)
+
+
+#     def add_book(self, book_name):
+#         self.list.append(book_name)
+#         print("This book has been added now")
+        
+
+#     def return_book(self, book_name):
+#         self.lend_dict.pop(book_name)
+#         print("The book is now returned.")
+
+#     def lend_book(self, user_name, book_name):
+#         if book_name not in self.lend_dict.keys():
+#             self.lend_dict.update({book_name:user_name})
+#             print(f"You can now take the book. Your lending has been entered into the system")
+#         else:
+#             print(f"The book has been already taken by {self.lend_dict[book_name]}")
+
+# sam = Library(["A", "B", "C", "D", "E", "F", "G"], "First Time OOPS Library")
+
+# while(True):
+#     print(f"Welcome to {sam.name}. Please Enter your choice below:")
+#     print("1 to Display the Books available")
+#     print("2 to add a new book")
+#     print("3 to lend a book")
+#     print("4 to return the book")
+
+#     choice = int(input())
+#     if choice == 1:
+#         sam.display_book()
+
+#     elif choice == 2:
+#         book_name = input("Enter the name of the book to add")
+#         sam.add_book(book_name)
+
+#     elif choice == 3:
+#         user_name = input("Enter you name :")
+#         book_name = input("Enter the book you want to lend")
+#         sam.lend_book(user_name,book_name)
+
+#     elif choice == 4:
+#         book_name = input("Enter the name of the book to return")
+#         sam.return_book(book_name)
+
+#     else:
+#         print("Not a Valid option")
+        
+#     print("Press q to QUIT and c to CONTINUE")
+#     choice2 = ""
+#     while choice2 != "q" and choice2 != "c":
+#         choice2 = input() 
+#     if choice2 == "q":
+#         exit()
+#     elif choice2 == "c":
+#         continue
